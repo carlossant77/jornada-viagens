@@ -11,10 +11,15 @@ header {
     display: inline-block;
     width: 68px;
     width: 64px;
+    cursor: pointer;
 }
 
 nav {
     display: none;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
 }
 
 .navegation-menu {
