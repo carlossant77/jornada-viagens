@@ -5,18 +5,102 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     padding: 38px 48px;
+    position: relative;
 }
 
 .logo { 
     display: inline-block;
     width: 68px;
     width: 64px;
+    cursor: pointer;
+}
+
+.img-mobile {
+    display: block;
+}
+
+.img-desktop {
+    display: none;
 }
 
 nav {
     display: none;
 }
 
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: var(--background-tertiary-color);
+}
+
 .navegation-menu {
     margin-top: 24px;
+}
+
+.list-links {
+    list-style: none;
+    font-family: var(--);
+}
+
+.list-links li {
+    margin: 16px 0;
+}
+
+.list-links li a {
+    color: var(--text-secondary-color);
+    text-decoration: none;
+    font-weight: var(--menu-text-weight);
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .navegation-menu {
+        margin-top: 0;
+        width: 468px;
+    }
+
+    .navegation-menu label {
+        display: none;
+    }
+
+    .navegation-menu nav {
+        display: block;
+    }
+
+    .list-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .list-links li {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 38px 120px;
+    }
+    .img-desktop {
+        display: block;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+
+    .navegation-menu a:hover {
+        color: var(--primary-color);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    header {
+        padding: 38px 160px;
+    }
 }
