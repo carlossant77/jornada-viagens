@@ -72,3 +72,21 @@
         width: 648px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .content {
+        display: flex;
+        gap: 24px;
+        max-width: 1198px;
+        height: 460px;
+        margin-bottom: 104px;
+    }
+
+    .text-content {
+        max-width: 384px;
+    }
+
+    .img-content {
+        width: 790px;
+    }
+}
