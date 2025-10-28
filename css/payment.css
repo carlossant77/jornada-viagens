@@ -89,18 +89,18 @@
 /* PÁGINA DE PACOTES DE VIAGEM (COMPONENTIZAÇÃO DA SECTION) */
 /* PÁGINA DE PACOTES DE VIAGEM (COMPONENTIZAÇÃO DA SECTION) */
 
-.content-title h4{
+.content-title h4 {
     font-size: 40px;
     margin: 0px;
 }
 
-.content-title p{
+.content-title p {
     font-size: 28px;
     margin: 0px;
     margin-top: 24px;
 }
 
-.text-content footer a{
+.text-content footer a {
     width: 312px;
     border-radius: 8px;
     text-align: center;
@@ -132,3 +132,43 @@
     height: 182px;
 }
 
+@media screen and (min-width: 768px) {
+    .img-container.dojo {
+        background-image: url(/img/img-payments-desktop1.png);
+    }
+
+    .img-container.city {
+        background-image: url(/img/img-payments-desktop2.png);
+    }
+
+    .img-container.women {
+        background-image: url(/img/img-payments-desktop3.png);
+        grid-column: span 2;
+    }
+
+    .text-content {
+        max-width: 648px;
+    }
+
+    .img-content-pacotes {
+        width: 648px;
+    }
+
+    .text-content footer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .text-content {
+        max-width: 384px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-content-pacotes {
+        width: 790px;
+    }
+}
