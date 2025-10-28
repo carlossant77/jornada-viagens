@@ -71,6 +71,12 @@
     border: none;
 }
 
+.form .small-input {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
 @media screen and (min-width: 768px) {
     .form p {
         max-width: 648px;
@@ -92,5 +98,43 @@
     .form form input[type="submit"] {
         width: 284px;
         align-self: center;
+    }
+
+    .form .small-input {
+        gap: 64px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .form p {
+        max-width: 1200px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .form form {
+        max-width: 790px;
+    }
+
+    .form form input {
+        width: 790px;
+    }
+
+    .form form .small {
+        width: 383px;
+    }
+
+    .form form textarea {
+        width: 790px;
+    }
+
+    .form form input[type="submit"] {
+        width: 284px;
+        align-self: center;
+    }
+
+    .form .small-input {
+        flex-direction: row;
+        gap: 24px;
     }
 }
