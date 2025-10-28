@@ -57,3 +57,37 @@
     border-radius: 8px;
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .relationated .section-title {
+        margin-top: 88px;
+        max-width: 648px;
+    }
+
+    .relationated .card {
+        max-width: 648px;
+    }
+
+    .relationated .card-img {
+        height: 300px;
+        width: 648px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .relationated-cards {
+        flex-direction: row;
+        align-items: self-start;
+        gap: 24px;
+    }
+
+    .relationated .card {
+        max-width: 384px;
+    }
+
+    .relationated .card-img {
+        height: 300px;
+        width: 384px;
+    }
+}

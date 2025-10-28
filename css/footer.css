@@ -107,3 +107,9 @@
         background-image: url(/img/pacotes-footer-desktop.png);
     }
 }
+
+/* PÁGINA DE BLOG (COMPONENTIZAÇÃO DA SECTION) */
+
+.footer-content.blog {
+    margin-top: 160px;
+}
