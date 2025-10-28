@@ -127,3 +127,31 @@
         max-width: 580px;
     }
 }
+
+/* PÁGINA DE BLOG (COMPONENTIZAÇÃO DO HERO) */
+
+.blog-container {
+    height: 460px;
+    width: 100%;
+    background: url(/img/blog-hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: 70% 100%;
+    color: var(--text-secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .blog-container {
+        background: url(/img/blog-hero-tablet.png) no-repeat;
+        height: 620px;
+        background-size: cover;
+        background-position: 80% 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .blog-container {
+        background: url(/img/blog-hero-desktop.png) no-repeat;
+        background-size: cover;
+    }
+}
+
