@@ -17,7 +17,7 @@
 }
 
 .report .content-title.initial {
-   margin-top: 0px;
+    margin-top: 0px;
 }
 
 .report-img {
@@ -46,3 +46,31 @@
     margin-bottom: 32px;
 }
 
+@media screen and (min-width: 768px) {
+    .report-content {
+        margin-top: 0px;
+        width: 648px;
+    }
+
+    .report .container-inicial {
+        display: flex;
+        gap: 24px;
+    }
+
+    .report .text-container {
+        width: 312px;
+    }
+
+    .report-img.hotel {
+        width: 312px;
+        margin: 0px;
+    }
+
+    .report-img.tokyo {
+        background: url(/img/report-img-tablet.png);
+        height: 300px;
+        background-position: center;
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+}
