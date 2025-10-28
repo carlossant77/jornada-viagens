@@ -1,0 +1,71 @@
+.form .section-title {
+    margin-top: 88px
+}
+
+.form p {
+    max-width: 312px;
+    text-align: center;
+    justify-self: center;
+    line-height: 28px;
+}
+
+.form form {
+    margin-top: 56px;
+    margin-bottom: 88px;
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.form form input {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 32px;
+    border: none;
+    border-bottom: 2px solid #D9D9D9;
+    width: 312px;
+}
+
+.form form label {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 32px;
+    border: none;
+    color: #8C8C8C;
+}
+
+.form form textarea {
+    border-color: #D9D9D9;
+    resize: none;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 28px;
+    border-radius: 8px;
+}
+
+.form form textarea:focus {
+    outline: none;
+    border: 2px solid var(--secondary-color);
+}
+
+.form form input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.form form input:valid {
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.form form input[type="submit"] {
+    height: 64px;
+    width: 312px;
+    background-color: var(--secondary-color);
+    color: var(--text-secondary-color);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: var(--title-weight);
+    cursor: pointer;
+    border: none;
+}
