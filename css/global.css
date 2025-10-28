@@ -1,5 +1,15 @@
 /* CSS RESET */
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,6 +40,12 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
 body {
     font-family: "Montserrat", sans-serif;
     color: var(--text-primary-color);
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-title h2 {
@@ -82,7 +98,7 @@ section {
     .section-title h2 {
         font-size: 32px;
     }
-    
+
 }
 
 @media screen and (min-width: 1024px) {
