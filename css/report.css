@@ -1,0 +1,48 @@
+.report .section-title {
+    margin-top: 88px;
+}
+
+.report-content {
+    margin-top: 20px;
+    width: 312px;
+}
+
+.report-content p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.report .content-title {
+    margin: 32px 0px 24px 0px;
+}
+
+.report .content-title.initial {
+   margin-top: 0px;
+}
+
+.report-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.report-img.hotel {
+    background: url(/img/report-img-hotel.png);
+    height: 360px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.report-img.tokyo {
+    background: url(/img/report-img-tokyo.png);
+    height: 300px;
+    background-position: center;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.report .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
