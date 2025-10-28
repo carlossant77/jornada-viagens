@@ -42,6 +42,7 @@
     font-size: 12px;
     line-height: 28px;
     border-radius: 8px;
+    width: 312px;
 }
 
 .form form textarea:focus {
@@ -68,4 +69,28 @@
     font-weight: var(--title-weight);
     cursor: pointer;
     border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .form p {
+        max-width: 648px;
+    }
+
+    .form form {
+        max-width: 648px;
+        gap: 64px;
+    }
+
+    .form form input {
+        width: 648px;
+    }
+
+    .form form textarea {
+        width: 648px;
+    }
+
+    .form form input[type="submit"] {
+        width: 284px;
+        align-self: center;
+    }
 }
