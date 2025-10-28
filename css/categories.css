@@ -1,9 +1,3 @@
-.categories {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .categories .section-title {
     display: flex;
     flex-direction: column;

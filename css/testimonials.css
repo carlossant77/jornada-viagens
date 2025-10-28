@@ -50,5 +50,6 @@
     .testimonials-container {
         flex-direction: row;
         justify-content: center;
+        max-width: 1198px;
     }
 }
