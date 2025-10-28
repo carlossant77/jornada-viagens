@@ -37,6 +37,28 @@
             </div>
         </div>
     </section>
+    <section class="form">
+        <div class="section-title">
+            <h2>Preencha o formulário:</h2>
+            <hr>
+        </div>
+        <p>Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações
+            objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos
+            retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+        <form action="/contato.html" method="get">
+            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+            <div class="small-input">
+                <input type="tel" name="phone" id="phone" placeholder="Telefone" class="small" required>
+                <input type="email" name="email" id="email" placeholder="Email" class="small" required>
+            </div>
+            <input type="text" name="subject" id="subject" placeholder="Assunto" required>
+            <div>
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="46" rows="3" required></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 </body>
 
 </html>
