@@ -87,3 +87,23 @@
         margin: 0px;
     }
 }
+
+/* PÁGINA DE PACOTES DE VIAGEM (COMPONENTIZAÇÃO DA SECTION) */
+/* PÁGINA DE PACOTES DE VIAGEM (COMPONENTIZAÇÃO DA SECTION) */
+/* PÁGINA DE PACOTES DE VIAGEM (COMPONENTIZAÇÃO DA SECTION) */
+
+.footer-img.pacotes {
+    background-image: url(/img/pacotes-footer-mobile.png);
+}
+
+@media screen and (min-width: 768px) {
+    .footer-img.footer-img.pacotes {
+        background-image: url(/img/pacotes-footer-tablet.png);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-img.footer-img.pacotes {
+        background-image: url(/img/pacotes-footer-desktop.png);
+    }
+}
