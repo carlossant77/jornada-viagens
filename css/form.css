@@ -114,6 +114,7 @@
 
     .form form {
         max-width: 790px;
+        margin-bottom: 104px;
     }
 
     .form form input {
