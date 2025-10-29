@@ -113,3 +113,21 @@
 .footer-content.blog {
     margin-top: 160px;
 }
+
+/* PÁGINA DE CONTATOS (COMPONENTIZAÇÃO DA SECTION) */
+
+.footer-img.contato {
+    background-image: url(/img/footer-contato.png);
+}
+
+@media screen and (min-width: 768px) {
+    .footer-img.contato {
+        background-image: url(/img/footer-contato-tablet.png);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-img.contato {
+        background-image: url(/img/footer-contato-desktop.png);
+    }
+}
